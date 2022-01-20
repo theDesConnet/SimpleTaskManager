@@ -55,7 +55,7 @@ namespace SimpleTaskManager
 
         private void button2_Click(object sender, EventArgs e)
         {
-           string path = Microsoft.VisualBasic.Interaction.InputBox("Введите новую задачу", "DSTask Beta test (By DSINC)", "", 350, 350);
+           string path = Microsoft.VisualBasic.Interaction.InputBox("Введите новую задачу", "SimpleTaskManager", "", 350, 350);
             Process.Start(path);
         }
 
@@ -82,7 +82,7 @@ namespace SimpleTaskManager
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Автор DesConnet(DSGame) VK: vk.com/endnet");
+            MessageBox.Show("[c0d9d by DesConnet] VK: vk.com/endnet");
         }
 
         private void button7_Click(object sender, EventArgs e)
